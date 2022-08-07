@@ -6,8 +6,7 @@ import Home from './components/Home/Home';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import Footer from './components/Footer/Footer';
 import Cart from './components/Cart/Cart';
-import Login from './components/Login/Login';
-import Signup from './components/Signup/Signup';
+
 
 function App() {
   return <>
@@ -21,8 +20,7 @@ function App() {
     <Route path=':id' element={<ProductDetails/>}/>
     </Route>
     <Route path='cart' element={<Cart/>}/>
-    <Route path='login' element={<Login/>}/>
-    <Route path='Signup' element={<Signup/>}/>
+  
 
   </Routes>
 
