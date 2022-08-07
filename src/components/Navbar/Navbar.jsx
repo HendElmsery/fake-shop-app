@@ -39,26 +39,7 @@ export default function Navbar() {
      </div>
     </Link>
 
-    <Link to='/login'>
-    <ul className=" ms-auto mb-2 mb-lg-0">
-                      <li className="nav-item dropdown">
-                          <Link
-                      
-                              className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Login
-                          </Link>
-                          <ul className="dropdown-menu ">
-                              <li><Link
-                      
-                                  className="dropdown-item text-muted" to='/Signup'>Sign up</Link></li>
-                              <li><Link
-                      
-                                  className="dropdown-item text-muted" to='/login'>Login</Link></li>
-                          </ul>
-                      </li>
-                      
-                      </ul>
-    </Link>
+
     </div>
   
 </nav>
