@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card{
+  word-wrap: break-word;
+}
+.card-img img{
+  height: 300px;
+  object-fit: contain;
+}
+small{
+  font-size: .875em;
+width: 20%;
+
+}
+.card-title{
+  max-height: 30px;
+  overflow: hidden;
+}
+a,a:hover{
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.blue{
+  background-color: rgb(10, 66, 117);
+bottom: 0;
+  color: #fff;
+}
+.position-sticky {
+  position: -webkit-sticky!important;
+  position: sticky!important;
+  top: 100px;
+}
